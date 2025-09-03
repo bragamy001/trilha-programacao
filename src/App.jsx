@@ -24,7 +24,7 @@ const LEVELS = [
   {
     id: 1,
     title: "Nível 1 – Pensamento Computacional",
-    pdfUrl: "/pdfs/nivel1.pdf",
+    pdfUrl: "pdfs/nivel1.pdf",
     questions: [
       { q: "O que é um algoritmo?", options: ["Um robô que executa tarefas", "Uma sequência de passos para resolver um problema", "Um tipo de linguagem de programação", "Um erro no computador"], correct: 1, explain: "Algoritmo é um passo a passo claro e finito para resolver um problema ou executar uma tarefa." },
       { q: "Qual é a melhor descrição de decomposição de problemas?", options: ["Juntar vários problemas em um só", "Ignorar as partes difíceis", "Dividir um problema grande em partes menores", "Pedir ajuda ao computador"], correct: 2, explain: "Decompor é quebrar um problema complexo em partes menores e mais fáceis de gerenciar e resolver." },
@@ -46,7 +46,7 @@ const LEVELS = [
   {
     id: 2,
     title: "Nível 2 – Lógica e Fluxogramas",
-    pdfUrl: "/pdfs/nivel2.pdf",
+    pdfUrl: "pdfs/nivel2.pdf",
     questions: [
       { q: "Em um fluxograma, um losango normalmente representa…", options: ["Início/Fim", "Processo", "Decisão", "Entrada/Saída"], correct: 2, explain: "O losango é usado para pontos de decisão, onde o fluxo pode seguir por caminhos diferentes (ex: Sim/Não)." },
       { q: "Qual instrução faz algo acontecer várias vezes?", options: ["Condição", "Comentário", "Loop (laço)", "Atribuição"], correct: 2, explain: "Loops (como 'enquanto' ou 'para') são estruturas de repetição que executam um bloco de código múltiplas vezes." },
@@ -68,7 +68,7 @@ const LEVELS = [
   {
     id: 3,
     title: "Nível 3 – Variáveis e Tipos",
-    pdfUrl: "/pdfs/nivel3.pdf",
+    pdfUrl: "pdfs/nivel3.pdf",
     questions: [
       { q: "Uma variável serve para…", options: ["Armazenar valores que podem mudar", "Desenhar gráficos na tela", "Conectar o programa à internet", "Repetir blocos de código"], correct: 0, explain: "Variáveis são como 'caixas' na memória que guardam dados que podem ser alterados durante a execução do programa." },
       { q: "Qual conjunto tem apenas tipos de dados numéricos?", options: ["inteiro, flutuante", "string, booleano", "array, objeto", "if, while"], correct: 0, explain: "'inteiro' (int) armazena números sem casas decimais, e 'flutuante' (float) armazena números com casas decimais." },
@@ -90,7 +90,7 @@ const LEVELS = [
   {
     id: 4,
     title: "Nível 4 – Condições e Operadores",
-    pdfUrl: "/pdfs/nivel4.pdf",
+    pdfUrl: "pdfs/nivel4.pdf",
     questions: [
       { q: "O que a condição 'if' (Se) faz?", options: ["Repete algo infinitamente", "Executa um bloco de código apenas se a condição for verdadeira", "Declara uma variável nova", "Imprime algo na tela sempre"], correct: 1, explain: "A estrutura 'if' é a principal forma de controle de fluxo, permitindo que programas tomem decisões." },
       { q: "Qual operador é usado para verificar se dois valores são IGUAIS?", options: ["=", "==", "=>", "<>"], correct: 1, explain: "'==' é o operador de comparação de igualdade. '=' é para atribuição de valor." },
