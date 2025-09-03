@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+:root { --card-bg: rgba(255,255,255,0.8); }
+.dark :root { --card-bg: rgba(20,20,24,0.6); }
